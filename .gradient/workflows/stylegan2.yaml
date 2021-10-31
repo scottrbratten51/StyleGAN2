@@ -34,7 +34,6 @@ jobs:
         pip install requests==2.22.0
         pip install Pillow==6.2.1
         apt-get install sudo -y
-        
         sudo apt-get install wget
         curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
         sudo apt-get install -y nodejs
